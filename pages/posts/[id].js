@@ -28,7 +28,7 @@ export default function Post({ post }) {
       <p className="px-10">{post.body}</p>
 
       <Link href="/blog-page">
-        <div className="mt-12 flex cursor-pointer">
+        <div className="mt-12 flex cursor-pointer items-center">
           <svg
             className="mr-3 h-6 w-6"
             fill="none"
